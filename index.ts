@@ -7,7 +7,7 @@ app.get('/', (req:Request, res:Response) => {
 });
 
 app.get('/hi', (req:Request, res:Response) => {
-    res.send('Hello World ki khobor!');
+    res.send('Hello Worl what is up!');
 });
 
 app.listen(3000, () => {
